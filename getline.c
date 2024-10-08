@@ -65,6 +65,7 @@ int main(int argc, char* argv[]) {
             free(prev_line);
         }
         free(file);
+        free(next_line);
         
     }
 
